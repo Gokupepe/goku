@@ -2,46 +2,184 @@
   "slug": "den-ngu-cam-bien",
   "title": "Đèn ngủ cảm biến chuyển động",
   "voice": "vi-VN-HoaiMyNeural",
-  "rate": "+12%",
+  "rate": "+22%",
+  "hook_pick": "A",
+  "hooks": [
+    {
+      "id": "A",
+      "formula": "Mệnh lệnh phủ định + thời điểm cụ thể",
+      "text": "ĐỪNG bật đèn lúc 2 giờ sáng!",
+      "vo": "Đừng bật đèn phòng lúc hai giờ sáng nữa!",
+      "rate": "+20%",
+      "clips": [
+        {
+          "pix": 374414,
+          "start": 1.0
+        },
+        {
+          "pix": 379303,
+          "focus": 0.3
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "formula": "Sốc giá + bằng chứng dùng thật",
+      "text": "40K mà cả nhà dùng mỗi đêm",
+      "vo": "Bốn mươi nghìn thôi, mà cả nhà tôi đêm nào cũng dùng.",
+      "rate": "+20%",
+      "clips": [
+        {
+          "pix": 374420,
+          "start": 2.0
+        },
+        {
+          "pix": 229513,
+          "focus": 0.35
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "formula": "Gọi đúng tệp khách",
+      "text": "Nhà có ông bà, con nhỏ?",
+      "vo": "Nhà có ông bà hay con nhỏ thì phải xem cái này.",
+      "rate": "+20%",
+      "clips": [
+        {
+          "pix": 326237
+        },
+        {
+          "pix": 112365,
+          "focus": 0.4
+        }
+      ]
+    }
+  ],
   "scenes": [
     {
-      "section": "hook",
-      "text": "40K mà đêm nào cũng cần?!",
-      "vo": "Bốn mươi nghìn, mà đêm nào tôi cũng cần nó.",
-      "query": "dark bedroom night",
-      "rate": "+25%"
+      "section": "attention",
+      "aida": "A - Problem",
+      "text": "Nửa đêm mò công tắc?",
+      "vo": "Nửa đêm dậy đi vệ sinh, mò công tắc, vấp chân vào cạnh giường.",
+      "clips": [
+        {
+          "pix": 151295,
+          "focus": 0.45
+        },
+        {
+          "pix": 47129,
+          "focus": 0.45
+        },
+        {
+          "pix": 236633
+        }
+      ]
     },
     {
       "section": "attention",
-      "text": "Nửa đêm mò công tắc?",
-      "vo": "Nửa đêm dậy đi vệ sinh, mò mẫm tìm công tắc, vấp chân vào giường. Quen không?",
-      "query": "night dark hallway"
+      "aida": "A - Agitate",
+      "text": "Bật đèn to: chói mắt, cả nhà thức",
+      "vo": "Bật đèn to thì chói mắt, cả nhà tỉnh giấc.",
+      "clips": [
+        {
+          "pix": 374416,
+          "start": 2.5
+        },
+        {
+          "pix": 304230,
+          "focus": 0.75
+        }
+      ]
     },
     {
       "section": "interest",
-      "text": "Đèn cảm biến chuyển động",
-      "vo": "Đây là đèn ngủ cảm biến chuyển động. Dán ở gầm giường, cầu thang hay tủ quần áo đều được.",
-      "query": "led light strip"
+      "aida": "I - Solution",
+      "text": "Đèn cảm biến chuyển động ~40K",
+      "vo": "Giải pháp khoảng bốn mươi nghìn: đèn ngủ cảm biến chuyển động. Dán gầm giường, cầu thang, tủ đồ đều được.",
+      "clips": [
+        {
+          "pix": 374420,
+          "start": 2.0
+        },
+        {
+          "pix": 120483,
+          "focus": 0.3
+        },
+        {
+          "pix": 94980,
+          "focus": 0.4
+        },
+        {
+          "pix": 373869
+        }
+      ]
     },
     {
       "section": "desire",
-      "text": "Đi qua tự sáng, đi khỏi tự tắt",
-      "vo": "Bạn đi qua, đèn tự sáng. Đi khỏi, đèn tự tắt. Sạc bằng cổng USB, một lần dùng cả tuần.",
-      "query": "warm light room"
+      "aida": "D - Benefit",
+      "text": "Bước tới tự sáng, đi khỏi tự tắt",
+      "vo": "Bước tới, đèn tự sáng. Đi khỏi, tự tắt. Ánh vàng dịu, không chói mắt.",
+      "clips": [
+        {
+          "pix": 226811,
+          "focus": 0.15
+        },
+        {
+          "pix": 229513,
+          "focus": 0.35
+        },
+        {
+          "pix": 112365,
+          "focus": 0.75
+        }
+      ]
     },
     {
       "section": "desire",
-      "text": "Nhược điểm: sáng vừa đủ",
-      "vo": "Nhược điểm là ánh sáng không quá mạnh, chỉ đủ soi đường. Nhưng với giá này thì quá hời.",
-      "query": "cozy bedroom lamp"
+      "aida": "D - Who needs it",
+      "text": "Ông bà dậy đêm đỡ lo té ngã",
+      "vo": "Ông bà dậy đêm đỡ lo té ngã. Sạc USB, không cần đi dây.",
+      "clips": [
+        {
+          "pix": 326237
+        },
+        {
+          "pix": 304948
+        }
+      ]
+    },
+    {
+      "section": "desire",
+      "aida": "D - Honest con",
+      "text": "Nhược điểm: chỉ đủ soi đường",
+      "vo": "Nói thật, đèn chỉ đủ soi đường, không đọc sách được. Nhưng giá này thì quá hời.",
+      "clips": [
+        {
+          "pix": 374261
+        },
+        {
+          "pix": 120483,
+          "focus": 0.7
+        }
+      ]
     },
     {
       "section": "action",
+      "aida": "A - Action",
       "text": "Link ở bình luận ghim",
-      "vo": "Link mình để ở bình luận ghim. Đang giảm giá, lưu lại kẻo hết nha.",
-      "query": "smartphone shopping online"
+      "vo": "Link ở bình luận ghim. Đang giảm giá, lưu lại kẻo hết nha!",
+      "clips": [
+        {
+          "pix": 233382
+        },
+        {
+          "pix": 174009,
+          "focus": 0.55
+        }
+      ]
     }
   ],
-  "caption": "Món 40K tôi dùng mỗi đêm. Bạn có cần không? #congnghegiare #dothongminh #phongtro #shopee",
+  "caption": "Hết cảnh nửa đêm mò công tắc với món ~40K này. Nhà bạn có cần không? #congnghegiare #dothongminh #denngu #phongtro #shopee",
   "pinned_comment": "Link đèn ngủ cảm biến: [DÁN LINK SHOPEE AFFILIATE]"
 }
