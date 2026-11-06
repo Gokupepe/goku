@@ -78,7 +78,8 @@ def pixabay_clip(query, need_sec, used):
     else:
         url = "https://pixabay.com/api/videos/?" + urllib.parse.urlencode(
             {"key": key, "q": query, "per_page": 20, "safesearch": "true"})
-        with urllib.request.urlopen(url, timeout=30) as r:
+        req = urllib.request.Request(url, headers={"User-Agent": "aff-video/1.0"})
+        with urllib.request.urlopen(req, timeout=30) as r:
             hits = json.load(r).get("hits", [])
         meta.write_text(json.dumps(hits))
     # ưu tiên clip dọc, đủ dài, chưa dùng trong video này
