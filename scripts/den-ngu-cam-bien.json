@@ -1,0 +1,47 @@
+{
+  "slug": "den-ngu-cam-bien",
+  "title": "Đèn ngủ cảm biến chuyển động",
+  "voice": "vi-VN-HoaiMyNeural",
+  "rate": "+12%",
+  "scenes": [
+    {
+      "section": "hook",
+      "text": "40K mà đêm nào cũng cần?!",
+      "vo": "Bốn mươi nghìn, mà đêm nào tôi cũng cần nó.",
+      "query": "dark bedroom night",
+      "rate": "+25%"
+    },
+    {
+      "section": "attention",
+      "text": "Nửa đêm mò công tắc?",
+      "vo": "Nửa đêm dậy đi vệ sinh, mò mẫm tìm công tắc, vấp chân vào giường. Quen không?",
+      "query": "night dark hallway"
+    },
+    {
+      "section": "interest",
+      "text": "Đèn cảm biến chuyển động",
+      "vo": "Đây là đèn ngủ cảm biến chuyển động. Dán ở gầm giường, cầu thang hay tủ quần áo đều được.",
+      "query": "led light strip"
+    },
+    {
+      "section": "desire",
+      "text": "Đi qua tự sáng, đi khỏi tự tắt",
+      "vo": "Bạn đi qua, đèn tự sáng. Đi khỏi, đèn tự tắt. Sạc bằng cổng USB, một lần dùng cả tuần.",
+      "query": "warm light room"
+    },
+    {
+      "section": "desire",
+      "text": "Nhược điểm: sáng vừa đủ",
+      "vo": "Nhược điểm là ánh sáng không quá mạnh, chỉ đủ soi đường. Nhưng với giá này thì quá hời.",
+      "query": "cozy bedroom lamp"
+    },
+    {
+      "section": "action",
+      "text": "Link ở bình luận ghim",
+      "vo": "Link mình để ở bình luận ghim. Đang giảm giá, lưu lại kẻo hết nha.",
+      "query": "smartphone shopping online"
+    }
+  ],
+  "caption": "Món 40K tôi dùng mỗi đêm. Bạn có cần không? #congnghegiare #dothongminh #phongtro #shopee",
+  "pinned_comment": "Link đèn ngủ cảm biến: [DÁN LINK SHOPEE AFFILIATE]"
+}
