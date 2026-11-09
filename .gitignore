@@ -2,3 +2,7 @@ cache/
 build/
 output/
 __pycache__/
+projects/*/hf/
+projects/*/*.mp4
+projects/*/*.wav
+projects/*/storyboard/

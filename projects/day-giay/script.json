@@ -1,0 +1,126 @@
+{
+  "slug": "day-giay-hai-mau",
+  "voice": "vi-VN-NamMinhNeural",
+  "rate": "+15%",
+  "lower_third": {
+    "name": "Tuấn Quang",
+    "role": "[chức danh]",
+    "brand": "ACM Tuấn Quang"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "mood": "negative",
+      "src": "cam1",
+      "in": 0.4,
+      "vo": "Giày trắng, dây trắng? Nhìn chán thật sự.",
+      "lead": "Giày trắng, dây trắng?",
+      "kw": "NHÀM |CHÁN",
+      "kw_at": "chán",
+      "sfx": "glitch"
+    },
+    {
+      "id": "pain",
+      "mood": "negative",
+      "src": "cam0",
+      "in": 10.0,
+      "vo": "Ra sân, ai cũng giống ai.",
+      "lead": "Ra sân cầu lông",
+      "kw": "AI CŨNG |GIỐNG AI",
+      "kw_at": "ai",
+      "sfx": "glitch"
+    },
+    {
+      "id": "reveal",
+      "mood": "color",
+      "src": "cam1",
+      "in": 6.2,
+      "vo": "Thay ngay bộ dây hai màu này vào xem.",
+      "lead": "Thử cái này",
+      "kw": "DÂY |HAI MÀU",
+      "kw_at": "hai",
+      "sfx": "whoosh",
+      "lower_third": true
+    },
+    {
+      "id": "desire",
+      "mood": "color",
+      "src": "cam0",
+      "in": 0.3,
+      "vo": "Một bên vàng neon, một bên đỏ, đứng đâu trên sân cũng nổi.",
+      "lead": "Mỗi bên một màu",
+      "kw": "NỔI |BẬT",
+      "kw_at": "nổi",
+      "sfx": "pop"
+    },
+    {
+      "id": "mix",
+      "mood": "card",
+      "src": "cam0",
+      "in": 0,
+      "vo": "Muốn phối màu nào cũng được.",
+      "kw_at": "phối",
+      "sfx": "whoosh",
+      "card": {
+        "num": "01",
+        "title": "Phối màu\n|tùy thích",
+        "sub": "Một bên một màu, hoặc cả hai bên giống nhau",
+        "art": "swatch"
+      }
+    },
+    {
+      "id": "noshoe",
+      "mood": "card",
+      "src": "cam0",
+      "in": 0,
+      "vo": "Không cần mua giày mới.",
+      "kw_at": "mới",
+      "sfx": "whoosh",
+      "card": {
+        "num": "02",
+        "title": "Không cần\n|giày mới",
+        "sub": "Chỉ thay dây, giữ đôi giày quen chân",
+        "art": "shoe"
+      }
+    },
+    {
+      "id": "lace",
+      "mood": "card",
+      "src": "cam0",
+      "in": 0,
+      "vo": "Chỉ cần xỏ lại từng lỗ.",
+      "kw_at": "lỗ",
+      "sfx": "whoosh",
+      "card": {
+        "num": "03",
+        "title": "Xỏ lại\n|từng lỗ",
+        "sub": "Bắt chéo hai đầu dây, kéo đều tay",
+        "art": "lace"
+      }
+    },
+    {
+      "id": "easy",
+      "mood": "color",
+      "src": "cam0",
+      "in": 12.8,
+      "vo": "Tự thay ở nhà, vài phút là xong.",
+      "lead": "Tự thay tại nhà",
+      "kw": "VÀI |PHÚT",
+      "kw_at": "vài",
+      "sfx": "pop"
+    },
+    {
+      "id": "cta",
+      "mood": "color",
+      "src": "cam1",
+      "in": 10.6,
+      "vo": "Bấm vào giỏ hàng ngay bên dưới, chọn màu bạn thích rồi thêm vào giỏ liền nha.",
+      "lead": "Chọn màu bạn thích",
+      "kw": "THÊM VÀO |GIỎ",
+      "kw_at": "thêm",
+      "sfx": "ding",
+      "cta": true,
+      "tail": 1.0
+    }
+  ]
+}
