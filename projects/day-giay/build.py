@@ -218,7 +218,7 @@ def render_html(cfg, scenes, total):
         if s.get("lower_third"):
             els.append(f'''<div id="lt" class="clip" data-start="{st}" data-duration="{du}">
         <div class="bar"></div><div><div class="name">{html.escape(lt["name"])}</div>
-        <div class="meta">{html.escape(lt["role"]).upper()} · <b>{html.escape(lt["brand"]).upper()}</b></div></div></div>''')
+        <div class="meta">{(html.escape(lt["role"]).upper() + " · ") if lt.get("role") else ""}<b>{html.escape(lt["brand"]).upper()}</b></div></div></div>''')
             anim.append(f'tl.fromTo("#lt",{{x:-80,opacity:0}},{{x:0,opacity:1,duration:0.3,ease:"power3.out"}},{st});')
         if s.get("cta"):
             els.append(f'''<div id="cta" class="clip" data-start="{st}" data-duration="{du}">
