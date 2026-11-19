@@ -1,0 +1,140 @@
+{
+  "slug": "quan-can-dolphin",
+  "voice": "vi-VN-NamMinhNeural",
+  "rate": "+15%",
+  "sources": {
+    "both": "c2138.mov",
+    "yellow_pan": "c2139.mov",
+    "white": "c2141.mov",
+    "yellow": "c2142.mov"
+  },
+  "lower_third": {
+    "name": "Tuấn Quang",
+    "role": "",
+    "brand": "ACM Tuấn Quang"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "aida": "attention",
+      "mood": "negative",
+      "src": "yellow",
+      "in": 10.6,
+      "vo": "Đánh vài trận là cán vợt trơn tuột?",
+      "lead": "Đánh vài trận là...",
+      "kw": "TRƠN |TUỘT",
+      "kw_at": "trơn",
+      "sfx": "glitch",
+      "blur": true
+    },
+    {
+      "id": "pain",
+      "aida": "attention",
+      "mood": "negative",
+      "src": "white",
+      "in": 4.6,
+      "vo": "Mồ hôi tay ra là vợt xoay, đập hỏng cả pha cầu.",
+      "lead": "Mồ hôi tay ra là",
+      "kw": "VỢT |XOAY",
+      "kw_at": "xoay",
+      "sfx": "glitch",
+      "blur": true
+    },
+    {
+      "id": "reveal",
+      "aida": "interest",
+      "mood": "color",
+      "src": "both",
+      "in": 0.2,
+      "vo": "Thay ngay quấn cán Dolphin, có hai màu vàng và trắng.",
+      "lead": "Thay ngay",
+      "kw": "QUẤN CÁN |DOLPHIN",
+      "kw_at": "Dolphin",
+      "sfx": "whoosh",
+      "lower_third": true
+    },
+    {
+      "id": "yellow",
+      "aida": "interest",
+      "mood": "color",
+      "src": "yellow",
+      "in": 0.2,
+      "vo": "Bản vàng DP102, màu nổi, nhìn là thấy ngay trên sân.",
+      "lead": "Bản vàng DP102",
+      "kw": "VÀNG |NỔI BẬT",
+      "kw_at": "nổi",
+      "sfx": "pop"
+    },
+    {
+      "id": "white",
+      "aida": "interest",
+      "mood": "color",
+      "src": "white",
+      "in": 0.0,
+      "vo": "Bản trắng DP108, sạch sẽ, hợp với mọi cây vợt.",
+      "lead": "Bản trắng DP108",
+      "kw": "HỢP MỌI |VỢT",
+      "kw_at": "mọi",
+      "sfx": "pop"
+    },
+    {
+      "id": "grip",
+      "aida": "desire",
+      "mood": "card",
+      "src": "both",
+      "in": 0,
+      "vo": "Cầm êm tay, bám chắc, bớt lo trơn khi ra mồ hôi.",
+      "kw_at": "chắc",
+      "sfx": "whoosh",
+      "card": {
+        "num": "01",
+        "title": "Êm tay\n|bám chắc",
+        "sub": "Bớt lo trơn tay khi ra mồ hôi",
+        "art": "grip"
+      }
+    },
+    {
+      "id": "flat",
+      "aida": "desire",
+      "mood": "card",
+      "src": "both",
+      "in": 0,
+      "vo": "Quấn lên phẳng đều, cán gọn gàng.",
+      "kw_at": "phẳng",
+      "sfx": "whoosh",
+      "card": {
+        "num": "02",
+        "title": "Quấn lên\n|phẳng đều",
+        "sub": "Từng vòng chồng đều, cán gọn tay",
+        "art": "swatch"
+      }
+    },
+    {
+      "id": "tape",
+      "aida": "desire",
+      "mood": "color",
+      "src": "yellow",
+      "in": 7.8,
+      "vo": "Có sẵn băng chốt Dolphin, quấn xong nhìn như hàng chuyên nghiệp.",
+      "lead": "Có sẵn băng chốt",
+      "kw": "CHUẨN |CHUYÊN NGHIỆP",
+      "kw_at": "chuyên",
+      "sfx": "pop",
+      "cap_top": 230
+    },
+    {
+      "id": "cta",
+      "aida": "action",
+      "mood": "color",
+      "src": "both",
+      "in": 5.6,
+      "vo": "Bấm vào giỏ hàng bên dưới, chọn vàng hay trắng rồi thêm vào giỏ ngay nha.",
+      "lead": "Chọn vàng hay trắng",
+      "kw": "THÊM VÀO |GIỎ",
+      "kw_at": "thêm",
+      "sfx": "ding",
+      "cta": true,
+      "tail": 1.0
+    }
+  ]
+}

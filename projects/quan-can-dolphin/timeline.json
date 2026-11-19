@@ -1,0 +1,83 @@
+[
+  {
+    "id": "hook",
+    "src": "yellow",
+    "in": 10.6,
+    "start": 0.0,
+    "dur": 2.033333333333333,
+    "kw_time": 1.372,
+    "vo": "Đánh vài trận là cán vợt trơn tuột?"
+  },
+  {
+    "id": "pain",
+    "src": "white",
+    "in": 4.6,
+    "start": 2.0333,
+    "dur": 3.0,
+    "kw_time": 3.253,
+    "vo": "Mồ hôi tay ra là vợt xoay, đập hỏng cả pha cầu."
+  },
+  {
+    "id": "reveal",
+    "src": "both",
+    "in": 0.2,
+    "start": 5.0333,
+    "dur": 3.033333333333333,
+    "kw_time": 6.003,
+    "vo": "Thay ngay quấn cán Dolphin, có hai màu vàng và trắng."
+  },
+  {
+    "id": "yellow",
+    "src": "yellow",
+    "in": 0.2,
+    "start": 8.0667,
+    "dur": 4.166666666666667,
+    "kw_time": 10.264,
+    "vo": "Bản vàng DP102, màu nổi, nhìn là thấy ngay trên sân."
+  },
+  {
+    "id": "white",
+    "src": "white",
+    "in": 0.0,
+    "start": 12.2333,
+    "dur": 3.933333333333333,
+    "kw_time": 15.333,
+    "vo": "Bản trắng DP108, sạch sẽ, hợp với mọi cây vợt."
+  },
+  {
+    "id": "grip",
+    "src": "both",
+    "in": 0,
+    "start": 16.1667,
+    "dur": 3.2666666666666666,
+    "kw_time": 17.364,
+    "vo": "Cầm êm tay, bám chắc, bớt lo trơn khi ra mồ hôi."
+  },
+  {
+    "id": "flat",
+    "src": "both",
+    "in": 0,
+    "start": 19.4333,
+    "dur": 2.1666666666666665,
+    "kw_time": 19.935,
+    "vo": "Quấn lên phẳng đều, cán gọn gàng."
+  },
+  {
+    "id": "tape",
+    "src": "yellow",
+    "in": 7.8,
+    "start": 21.6,
+    "dur": 3.1333333333333333,
+    "kw_time": 24.113,
+    "vo": "Có sẵn băng chốt Dolphin, quấn xong nhìn như hàng chuyên nghiệp."
+  },
+  {
+    "id": "cta",
+    "src": "both",
+    "in": 5.6,
+    "start": 24.7333,
+    "dur": 4.733333333333333,
+    "kw_time": 27.192,
+    "vo": "Bấm vào giỏ hàng bên dưới, chọn vàng hay trắng rồi thêm vào giỏ ngay nha."
+  }
+]
